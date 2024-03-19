@@ -462,6 +462,6 @@ async def set_commands(client):
             BotCommand(f'{BotCommands.ListCommand}', 'Search in Drive'),
             BotCommand(f'{BotCommands.SearchCommand}', 'Search in Torrent'),
             BotCommand(f'{BotCommands.UserSetCommand}', 'Users settings'),
+            BotCommand(f'{BotCommands.BotSetCommand}', 'Bot settings'),
             BotCommand(f'{BotCommands.HelpCommand}', 'Get detailed help'),
         ])
-
